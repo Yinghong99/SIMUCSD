@@ -1,4 +1,4 @@
-package com.simucsd.simucsd.Activity;
+package com.simucsd.simucsd;
 
 public class character {
     double GPA = 4.0;
@@ -33,7 +33,7 @@ public class character {
         this.name = name;
     }
 
-    character(String name, boolean male, int IQ, int EQ, int money, int attraction){
+    public character(String name, boolean male, int IQ, int EQ, int money, int attraction){
         this.name = name;
         this.male = male;
         this.IQ = IQ;
@@ -72,6 +72,10 @@ public class character {
 
     void moneydown(int a){
         money -= a;
+    }
+
+    public double getGPA(){
+        return GPA;
     }
 
 }

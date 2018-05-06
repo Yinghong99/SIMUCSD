@@ -4,7 +4,10 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 
+import com.simucsd.simucsd.character;
 import com.simucsd.simucsd.R;
+import com.simucsd.simucsd.character;
+
 
 public class MainActivity extends Activity    {
 
@@ -17,6 +20,6 @@ public class MainActivity extends Activity    {
 
 
 
-        Log.d("gfdfde",String.valueOf(character_1.GPA));
+        Log.d("gfdfde",String.valueOf(character_1.getGPA()));
     }
 }
