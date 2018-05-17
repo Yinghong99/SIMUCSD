@@ -25,7 +25,6 @@ public class character {
     final int totalpoints3 = 50;
 
     character(){
-
     }
 
     character(String name){
